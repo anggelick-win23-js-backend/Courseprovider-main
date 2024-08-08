@@ -2,7 +2,7 @@
   "dependencies": {
     "storage1": {
       "type": "storage.emulator",
-      "connectionId": "VaultUri"
+      "connectionId": "anggelick354storage"
     },
     "appInsights1": {
       "type": "appInsights.sdk",

@@ -10,16 +10,16 @@
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 		<PackageReference Include="Azure.Storage.Blobs" Version="12.21.1" />
-		<PackageReference Include="Azure.Storage.Queues" Version="12.19.1" />
 		<PackageReference Include="HotChocolate.AspNetCore" Version="13.9.4" />
-		<PackageReference Include="HotChocolate.AspNetCore.Playground" Version="10.5.5" />
 		<PackageReference Include="HotChocolate.AzureFunctions" Version="13.9.4" />
+		<PackageReference Include="HotChocolate.Execution" Version="13.9.4" />
 		<PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.20.1" />
 		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.1.0" />
-		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" Version="1.2.0" />
 		<PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.16.4" />
 		<PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.21.0" />
 		<PackageReference Include="Microsoft.Azure.Functions.Worker.ApplicationInsights" Version="1.1.0" />
+		<!-- Remove if not used -->
+		<!-- <PackageReference Include="Azure.Functions.Worker.Extensions.Blobs" Version="1.2.0" /> -->
 		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
@@ -35,7 +35,5 @@
 			<CopyToPublishDirectory>Never</CopyToPublishDirectory>
 		</None>
 	</ItemGroup>
-	<ItemGroup>
-		<Using Include="System.Threading.ExecutionContext" Alias="ExecutionContext" />
-	</ItemGroup>
 </Project>
+
