@@ -1,0 +1,6 @@
+﻿namespace CourseProvider.Models;
+
+public class CourseRequest
+{
+    public string Id { get; set; } = null!;
+}

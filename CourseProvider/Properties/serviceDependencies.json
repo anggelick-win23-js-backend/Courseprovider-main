@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "storage1": {
+      "type": "storage",
+      "connectionId": "anggelick354storage"
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "dynamicId": null
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "secrets2": {
+      "type": "secrets",
+      "connectionId": "VaultUri"
+    }
+  }
+}
